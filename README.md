@@ -6,6 +6,8 @@ This project demonstrates an event-driven architecture for processing sales data
 
 ### Architecture Components
 
+![image](https://github.com/jignesh-kachhad/Event-Driven-Sales-Data-Analysis/blob/main/Architecture.png)
+
 1. **Amazon S3**: Used for storing JSON files containing sales order data.
 2. **Amazon EventBridge**: Detects the upload of new JSON files in the S3 bucket and triggers the Step Functions workflow.
 3. **AWS Step Functions**: Orchestrates the workflow for processing each order in the JSON file.

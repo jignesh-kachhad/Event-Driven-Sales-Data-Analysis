@@ -1,5 +1,5 @@
 ## Event Driven Sales Data Analysis
----
+
 ### NOTE: This is an internship project, so the code is not available.
 
 ### Project Overview

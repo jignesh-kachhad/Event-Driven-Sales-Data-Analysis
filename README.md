@@ -1,4 +1,6 @@
 ## Event Driven Sales Data Analysis
+---
+### NOTE: This is an internship project, so the code is not available.
 
 ### Project Overview
 
@@ -34,7 +36,7 @@ This project demonstrates an event-driven architecture for processing sales data
   
 - **Map State**:
   - Iterates through each order in the JSON payload.
-  - Processes orders concurrently with a maximum concurrency of 5.
+  - Processes orders concurrently with a maximum concurrency of 35.
 
 - **validate_orders_data (Lambda Function)**:
   - Validates the contact and order information in the payload.

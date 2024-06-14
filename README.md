@@ -2,6 +2,21 @@
 
 ### NOTE: This is an internship project, so the code is not available.
 
+### Table of Contents
+
+1. [Project Overview](#project-overview)
+2. [Architecture Components](#architecture-components)
+3. [Workflow Description](#workflow-description)
+4. [Detailed Step Functions Workflow](#detailed-step-functions-workflow)
+    - [GetObject State](#getobject-state)
+    - [Map State](#map-state)
+    - [validate_orders_data (Lambda Function)](#validate_orders_data-lambda-function)
+    - [DynamoDB PutItem](#dynamodb-putitem)
+    - [SQS SendMessage](#sqs-sendmessage)
+5. [Error Handling](#error-handling)
+6. [Lambda Function](#lambda-function)
+7. [Conclusion](#conclusion)
+
 ### Project Overview
 
 This project demonstrates an event-driven architecture for processing sales data using AWS services. The architecture leverages Amazon S3, Amazon EventBridge, AWS Step Functions, AWS Lambda, Amazon DynamoDB, and Amazon SQS to create a robust pipeline for handling and validating sales orders data.
